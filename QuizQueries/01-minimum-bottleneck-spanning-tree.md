@@ -1,6 +1,5 @@
-### Minimum-Bottleneck Spanning Tree
-___
-#### Module-2 Graded Assignment and Quiz Q-3
+## Minimum-Bottleneck Spanning Tree
+### Module-2 Graded Assignment and Quiz Q-3
 
 One of the basic motivations behind the Minimum Spanning Tree Problem is the goal of designing a spanning network for a set of nodes with minimum total cost. Here we explore another type of objective: designing a spanning network for which the most expensive edge is as cheap as possible.
 
@@ -19,5 +18,5 @@ ___
 
 | 1. No <br> 3. Counterexample below                                                                             | 
 |----------------------------------------------------------------------------------------------------------------| 
-| <img src="./images/01-bottleneck.jpg" alt="Minimun-Bottleneck" width="460" height="700">                       |
-| 2. Yes. Obviously, MST chooses the minimum edges, it must be a minimum-bottleneck spanning tree in every case. |
+| <img src="./images/01-bottleneck.jpg" alt="Minimun-Bottleneck" height="700" style="diaply:block; margin:auto;">|
+2. Yes. Obviously, MST chooses the minimum edges, it must be a minimum-bottleneck spanning tree in every case.

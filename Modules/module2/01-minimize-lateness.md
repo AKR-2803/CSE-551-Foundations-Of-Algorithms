@@ -1,19 +1,19 @@
-### Scheduling to Minimize Lateness
+## Scheduling to Minimize Lateness
 
-##### Algorithm used to minimize lateness when a single resource processes one job at a time.
+#### Algorithm used to minimize lateness when a single resource processes one job at a time.
 
 | Problem                                                                                                 | 
 |---------------------------------------------------------------------------------------------------------| 
 | <img src="./images/01-minimise-lateness-02.png" alt="Minimise-Lateness-Image" width="450" height="210"> |
 [Image Source](https://stumash.github.io/Algorithm_Notes/greedy/intervals/min_late.png)
 
-#### Notations
+### Notations
 - t<sub>j</sub>: time taken by job `j` to complete
 - d<sub>j</sub>: due time of job `j`
 - s<sub>j</sub>: start time of job `j`
 - f<sub>j</sub>: finish time of job `j`
 ___
-#### What is **l<sub>j</sub> = max(0, f<sub>j</sub> - d<sub>j</sub>)**?
+### What is **l<sub>j</sub> = max(0, f<sub>j</sub> - d<sub>j</sub>)**?
 
 - Lateness is how much the job finishes later than its due time.
 - Case I: Job finished before the due time
@@ -24,7 +24,7 @@ ___
   - If the difference is negative (Case I), `l = max(0, negative_value) = 0`
   - If the difference is positive (Case II), `l = max(0, positive_value) = positive_value`
 ___
-#### Our aim is to minimize lateness. Let's brainstorm.
+### Our aim is to minimize lateness. Let's brainstorm.
 - Clearly, allocating jobs randomly won't help. We need some criteria to order the jobs.
 - What criteria should we set?
 - We have two factors: time taken and due time.
@@ -43,7 +43,7 @@ ___
 
 ___
 
-#### Checking Criteria 1: By Time Taken
+### Checking Criteria 1: By Time Taken
 
 The following counterexample shows that this approach fails. If we prioritize time taken, we get:
 
@@ -57,7 +57,7 @@ The following counterexample shows that this approach fails. If we prioritize ti
 | <img src="./images/01-minimise-lateness-03.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
 
 ___
-#### Checking Criteria 3: By Slack Time
+### Checking Criteria 3: By Slack Time
 
 The following counterexample shows that this approach fails. If we prioritize slack time, we get:
 
@@ -71,7 +71,7 @@ The following counterexample shows that this approach fails. If we prioritize sl
 | <img src="./images/01-minimise-lateness-04.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
 
 ___
-#### Checking Criteria 2: By Due Time
+### Checking Criteria 2: By Due Time
 
 - This approach works best because it prioritizes due time, the main factor responsible for lateness.
 - Running the previous examples with this criterion will yield optimal results.
