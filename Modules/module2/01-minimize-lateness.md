@@ -33,7 +33,7 @@ ___
   - **Criteria 2**: by deadline [priority to the job with the earliest deadline d<sub>j</sub>]
 - Another factor we can consider is the difference between due time d<sub>j</sub> and time taken t<sub>j</sub>, called "slack time".
 - SLACK TIME: The time a job can wait without being late.
-- For example, [Job-2](_link to the figure above_) has t<sub>j</sub> = 8, d<sub>j</sub> = 2. `Slack time = 8 - 2 = 6`. This means Job-2 can wait until time `t = 6` before being scheduled without incurring lateness.
+- For example, **Job-2** has t<sub>j</sub> = 8, d<sub>j</sub> = 2. `Slack time = 8 - 2 = 6`. This means Job-2 can wait until time `t = 6` before being scheduled without incurring lateness.
 - Slack time can be another criterion to order jobs:
   - **Criteria 3**: by slack time [priority to the job with less slack time]
 
