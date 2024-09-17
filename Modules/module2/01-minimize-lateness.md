@@ -4,7 +4,7 @@
 
 | Problem                                                                                                 | 
 |---------------------------------------------------------------------------------------------------------| 
-| <img src="./images/01-minimise-lateness-02.png" alt="Minimise-Lateness-Image" width="450" height="210"> |
+| <img src="../images/minimise-lateness-02.png" alt="Minimise-Lateness-Image" width="450" height="210"> |
 [Image Source](https://stumash.github.io/Algorithm_Notes/greedy/intervals/min_late.png)
 
 ### Notations
@@ -39,7 +39,7 @@ ___
 
 | Slack Times for Example                                                                                   | 
 |-----------------------------------------------------------------------------------------------------------| 
-| <img src="./images/01-minimise-lateness-01.jpg" alt="Interval-Scheduling-Image" width="600" height="150"> |
+| <img src="../images/minimise-lateness-01.jpg" alt="Interval-Scheduling-Image" width="600" height="150"> |
 
 ___
 
@@ -54,7 +54,7 @@ The following counterexample shows that this approach fails. If we prioritize ti
 
 | `l = 1` for Criteria 1, but it could have been better, i.e. `l = 0`                                       | 
 |-----------------------------------------------------------------------------------------------------------| 
-| <img src="./images/01-minimise-lateness-03.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
+| <img src="../images/minimise-lateness-03.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
 
 ___
 ### Checking Criteria 3: By Slack Time
@@ -68,7 +68,7 @@ The following counterexample shows that this approach fails. If we prioritize sl
 
 | `l = 11` for Criteria 3, but it could have been better, i.e. `l = 2`                                      | 
 |-----------------------------------------------------------------------------------------------------------| 
-| <img src="./images/01-minimise-lateness-04.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
+| <img src="../images/minimise-lateness-04.jpg" alt="Interval-Scheduling-Image" width="500" height="150"> |
 
 ___
 ### Checking Criteria 2: By Due Time
