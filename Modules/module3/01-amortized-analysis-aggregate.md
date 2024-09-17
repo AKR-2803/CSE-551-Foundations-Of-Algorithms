@@ -1,4 +1,4 @@
-## Amortized using the Aggregate Method: Example with Dynamic Array
+## Amortized Analysis using the Aggregate Method: Example with Dynamic Array
 
 To calculate **amortized time**, we spread the total cost of all operations over each individual operation, even if some of them are expensive. This helps understand the average cost per operation over a sequence of operations.
 
