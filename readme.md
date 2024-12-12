@@ -1,5 +1,6 @@
 |        Folder        | Purpose  |
 |----------------|-------------|
+| [Book](https://github.com/AKR-2803/CSE-551-Foundations-Of-Algorithms/tree/main/Book)  | Reference book with solutions (source for many quiz questions) |
 | [Exams](https://github.com/AKR-2803/CSE-551-Foundations-Of-Algorithms/tree/main/Exams)  | Contains Fall 24 and previous years exam questions |
 | [Notes](https://github.com/AKR-2803/CSE-551-Foundations-Of-Algorithms/tree/main/Notes)  | Notes taken roughly for reference |
 | [Modules](https://github.com/AKR-2803/CSE-551-Foundations-Of-Algorithms/tree/main/Modules/)  | Contains course content, including detailed explanations of selected algorithms |
